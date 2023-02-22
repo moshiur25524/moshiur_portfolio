@@ -1,92 +1,136 @@
-import React from 'react';
-import team1 from '../Images/project-1-img/team-1.jpg'
-import team2 from '../Images/project-1-img/team-2.jpg'
-import team3 from '../Images/project-1-img/team-3.jpg'
-import team4 from '../Images/project-1-img/team-4.jpg'
+import React, { useRef } from 'react';
+import { motion } from 'framer-motion'
 
 const Team = () => {
+    const scrollRef = useRef(null)
     return (
         <div>
-            <section id="team" class="team section-padding">
+            <section
+                ref={scrollRef} style={{ overflow: "scroll" }}
+                id="portfolio" class="portfolio section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header text-center pb-5">
-                                <h2>Our Team</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit. Eveniet, cupiditate!</p>
+                                <h2 className='fw-bold'>My Skills</h2>
+                                <p>All the skills I feel comfortable</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-3">
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 2 }}
+                            viewport={{ once: true }}
+                        >
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <img src={team1} alt="" class="img-fluid rounded-circle" />
-                                    <h3 class="card-title py-2">Moshiur Rahman</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
-                                        itaque!</p>
-
-                                    <p class="socials">
-                                        <i class="bi bi-twitter text-dark mx-1"></i>
-                                        <i class="bi bi-facebook text-dark mx-1"></i>
-                                        <i class="bi bi-linkedin text-dark mx-1"></i>
-                                        <i class="bi bi-instagram text-dark mx-1"></i>
-                                    </p>
+                                    <img src='https://cdn-icons-png.flaticon.com/512/919/919827.png?w=740&t=st=1677063813~exp=1677064413~hmac=469b94472fa859bbe1e890c35f29eaba5eb8adb6e857e82ebf2cade51895a2d1' alt="" class="img-fluid rounded-circle w-50" />
+                                    <h3 class="card-title py-2">HTML</h3>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 2.3 }}
+                            viewport={{ once: true }}
+                        >
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <img src={team2} alt="" class="img-fluid rounded-circle" />
-                                    <h3 class="card-title py-2">Hafizur Rahmna</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
-                                        itaque!</p>
-
-                                    <p class="socials">
-                                        <i class="bi bi-twitter text-dark mx-1"></i>
-                                        <i class="bi bi-facebook text-dark mx-1"></i>
-                                        <i class="bi bi-linkedin text-dark mx-1"></i>
-                                        <i class="bi bi-instagram text-dark mx-1"></i>
-                                    </p>
+                                    <img src='https://cdn-icons-png.flaticon.com/512/919/919826.png?w=740&t=st=1677065285~exp=1677065885~hmac=04ef65a53fc52d0720d2fdf11a8ebadaa1ee75894affca603fc0e59d9ebc13e5' alt="" class="img-fluid rounded-circle w-50" />
+                                    <h3 class="card-title py-2">CSS</h3>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 2.6 }}
+                            viewport={{ once: true }}
+                        >
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <img src={team3} alt="" class="img-fluid rounded-circle" />
-                                    <h3 class="card-title py-2">Sayma Rahman</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
-                                        itaque!</p>
-
-                                    <p class="socials">
-                                        <i class="bi bi-twitter text-dark mx-1"></i>
-                                        <i class="bi bi-facebook text-dark mx-1"></i>
-                                        <i class="bi bi-linkedin text-dark mx-1"></i>
-                                        <i class="bi bi-instagram text-dark mx-1"></i>
-                                    </p>
+                                    <img src='https://i.ibb.co/0cps8zD/Ieg-UPpg-400x400.jpg' alt="" class="img-fluid rounded-circle w-50" />
+                                    <h3 class="card-title py-2">JavaScript</h3>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 2.9 }}
+                            viewport={{ once: true }}
+                        >
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <img src={team4} alt="" class="img-fluid rounded-circle" />
-                                    <h3 class="card-title py-2">Tazrin Akter</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
-                                        itaque!</p>
-
-                                    <p class="socials">
-                                        <i class="bi bi-twitter text-dark mx-1"></i>
-                                        <i class="bi bi-facebook text-dark mx-1"></i>
-                                        <i class="bi bi-linkedin text-dark mx-1"></i>
-                                        <i class="bi bi-instagram text-dark mx-1"></i>
-                                    </p>
+                                    <img src='https://i.ibb.co/zN3fPBG/download.png' alt="" class="img-fluid rounded-circle" />
+                                    <h3 class="card-title py-2">React</h3>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 3.2 }}
+                            viewport={{ once: true }}
+                        >
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src='https://i.ibb.co/G7xrK9n/download-1.png' alt="" class="img-fluid rounded-circle" />
+                                    <h3 class="card-title py-2">Node js</h3>
+                                </div>
+                            </div>
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 3.5 }}
+                            viewport={{ once: true }}
+                        >
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src='https://i.ibb.co/CQtg191/express-logo.png' alt="" class="img-fluid rounded-circle" />
+                                    <h3 class="card-title py-2">Express js</h3>
+                                </div>
+                            </div>
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 3.8 }}
+                            viewport={{ once: true }}
+                        >
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src='https://i.ibb.co/0J0zbLG/kuzt9r42or1fxvlq2-Meta-Generic.png' alt="" class="img-fluid rounded-circle" />
+                                    <h3 class="card-title py-2">MongoDb</h3>
+                                </div>
+                            </div>
+                        </motion.div>
+                        <motion.div
+                            class="col-12 col-md-12 col-lg-4 mb-2"
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 4.1 }}
+                            viewport={{ once: true }}
+                        >
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src='https://i.ibb.co/LCQ3c3D/images.png' className='w-50' alt="" class="img-fluid rounded-circle" />
+                                    <h3 class="card-title py-2">Firebase</h3>
+                                </div>
+                            </div>
+                        </motion.div>
                     </div>
                 </div>
             </section>

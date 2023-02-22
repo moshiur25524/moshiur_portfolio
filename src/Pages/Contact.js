@@ -8,8 +8,8 @@ const Contact = () => {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header text-center pb-5">
-                                <h2>Contact Us</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur <br/> adipisicing elit. Eveniet, cupiditate!</p>
+                                <h2 className='fw-bold'>Contact Us</h2>
+                                <p className='fs-2'> Let's make a conversation</p>
                             </div>
                         </div>
                     </div>

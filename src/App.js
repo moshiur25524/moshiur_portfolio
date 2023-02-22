@@ -8,18 +8,21 @@ import Projects from './Pages/Projects';
 import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Banner/>
-     <About/>
-     <Services/>
-     <Projects/>
-     <Team/>
-     <Contact/>
-     <Footer/>
+      <Header />
+      <AnimatePresence exitBeforeEnter>
+        <Banner />
+        <About />
+        <Services />
+        <Projects />
+        <Team />
+        <Contact />
+        <Footer />
+      </AnimatePresence>
     </div>
   );
 }

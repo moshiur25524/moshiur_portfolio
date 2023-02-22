@@ -10,7 +10,7 @@ const Header = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Moshiur Rahman</a>
+                        <a class="navbar-brand" href="#"><img src="../assets/Resume/Moshiur_Logo_2.png" alt="" /> Moshiur Rahman</a>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -19,13 +19,13 @@ const Header = () => {
                                 <a class="nav-link" href="#about">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>
+                                <a class="nav-link" href="#services">Languages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#projects">Projects</a>
+                                <a class="nav-link" href="#portfolio">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#blogs">Blogs</a>
+                                <a class="nav-link" href="#skills">skills</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>

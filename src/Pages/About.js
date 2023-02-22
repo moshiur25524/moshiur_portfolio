@@ -1,5 +1,7 @@
 import React from 'react';
-import aboutImg from '../Images/project-1-img/about.jpg'
+import profile from '../assets/Resume/Moshiur_Pro_Image.jpg'
+import {motion} from 'framer-motion'
+
 
 const About = () => {
     return (
@@ -9,18 +11,19 @@ const About = () => {
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
-                        <img src={aboutImg} alt="" class="img-fluid"/>
+                        <img src={profile} alt="" class="img-fluid"/>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
                     <div class="about-text">
-                        <h2>We Provide Best Quality <br/> Services Ever</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci neque quas
-                            consectetur, cum aspernatur possimus. Facere, placeat sit fugit necessitatibus esse non,
-                            harum voluptatem aliquam enim excepturi ad perspiciatis cupiditate magni? Ex eos enim, ipsum
-                            sunt esse adipisci totam voluptas unde eveniet, dolorem autem dignissimos illum, quae ut
-                            cum!</p>
-                        <a href="#" class="btn btn-warning">Learn More</a>
+                        <motion.h2
+                        className='fw-bold'
+                        initial={{x : -300, scale :0.5}}
+                        animate={{x : 0, scale :1}}
+                        transition={{duration: 1}}
+                        >Moshiur Rahman <br /> <span className='text-secondary'>Web Developer</span></motion.h2>
+                        <p>Hi! I am Moshiur Rahman, a junior web developer. As a passionate Developer , I want to see an opening for a Junior Web Developer role. I have experience in HTML, CSS,JavaScript, node.js and React. I am constantly seeking out new technologies and staying up-to-date on trends in the industry. I am dedicated to building easy-to-use, user-friendly websites, and applications</p>
+                        <a href="https://drive.google.com/file/d/1P7Evn6vcWRBF5zHkv30wTBwFmcKKPPQE/view?usp=sharing" target="_blank"  rel="noreferrer" class="btn content-download btn-warning fw-bold">Download My Resume</a>
                     </div>
                 </div>
             </div>

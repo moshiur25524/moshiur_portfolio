@@ -157,3 +157,10 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
+// Projects CSS
+
+.card-body img:hover{
+opacity: 0.8;
+transition: 0.8s;
+}

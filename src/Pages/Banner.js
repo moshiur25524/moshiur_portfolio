@@ -17,27 +17,24 @@ const Banner = () => {
                 {/* <img src="Images/project-1-img/home-2.jpg" class="d-block w-100" alt="..."/> */}
                 <div class="carousel-caption ">
                     <h5>Always Dedicated</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis incidunt consectetur
-                        odit, reprehenderit at?</p>
-                    <p><a href="#" class="btn btn-warning">Learn More</a></p>
+                    <p>Dedication is the key to get success in Web development.It won't be hard for me to realize that it drives my most of the action. Dedication is an intensity of will power. If I wish to get something, I work hard for it with dedication.</p>
+                    <p><a href="#contact" class="btn btn-warning">Contact Me</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 {/* <img src="Images/project-1-img/home-1.jpg" class="d-block w-100" alt="..."/> */}
                 <div class="carousel-caption">
-                    <h5>Your Dream House</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis incidunt consectetur
-                        odit, reprehenderit at?</p>
-                    <p><a href="#" class="btn btn-warning">Learn More</a></p>
+                    <h5>Constantly Learning and Improving</h5>
+                    <p>Staying on top of your game means you never stop learning. Technologies changing very fast and it's common practice now always updated. Though I want to stay on web developer, I have to stay ahead of the path. I need learn new technologies and programming languages</p>
+                    <p><a href="#contact" class="btn btn-warning">Contact Me</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 {/* <img src="Images/project-1-img/home-3.jpg" class="d-block w-100" alt="..."/> */}
                 <div class="carousel-caption">
-                    <h5>True Construction</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis incidunt consectetur
-                        odit, reprehenderit at?</p>
-                    <p><a href="#" class="btn btn-warning">Learn More</a></p>
+                    <h5>Communicating well with others</h5>
+                    <p>Communication is important in every job, and even more so in web development. To create an outstanding product, we need designers, developers, clients, and customers perfectly aligned in order. That means  communication is important In web development and we should always be treated with priority.</p>
+                    <p><a href="#contact" class="btn btn-warning">Contact Me</a></p>
                 </div>
             </div>
         </div>
