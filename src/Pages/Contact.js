@@ -1,6 +1,29 @@
 import React from 'react';
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
+const service_id = "service_fd1p744";
+const template_id = "template_s18aq6w";
+const user_id = "i450Eyy2msOZu4AcZ";
+
+// const service_id = `${process.env.REACT_APP_service_id}`
+// const template_id = `${process.env.REACT_APP_template_id}`
+// const user_id = `${process.env.REACT_APP_user_id}`
 
 const Contact = () => {
+    const form = useRef();
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        emailjs.sendForm(service_id, template_id, form.current, user_id).then(
+            (result) => {
+                console.log(result.text);
+            },
+            (error) => {
+                console.log(error.text);
+            }
+        );
+        event.target.reset();
+    };
     return (
         <div>
             <section id="contact" class="contact section-padding">
@@ -16,21 +39,21 @@ const Contact = () => {
 
                     <div class="row m-0">
                         <div class="col-md-12 p-0 pt-4 pb-4">
-                            <form action="" class="bg-light p-4 m-auto">
+                            <form ref={form} onSubmit={handleSubmit} autoComplete="off" class="bg-light p-4 m-auto">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="text" class="form-control" placeholder="Your Full Name" required />
+                                            <input type="text" name='name' class="form-control" placeholder="Your Full Name" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="email" class="form-control" placeholder="Your Email Here" required />
+                                            <input type="email" name='email' class="form-control" placeholder="Your Email Here" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <textarea class="form-control" rows="3" placeholder="Your query Here"
+                                            <textarea class="form-control" name='message' rows="3" placeholder="Your query Here"
                                                 required></textarea>
                                         </div>
                                     </div>

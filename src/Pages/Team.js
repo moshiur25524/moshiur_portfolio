@@ -37,7 +37,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 2.3 }}
+                            transition={{ duration: 2.1 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -51,7 +51,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 2.6 }}
+                            transition={{ duration: 2.2 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -65,7 +65,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 2.9 }}
+                            transition={{ duration: 2.3 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -79,7 +79,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 3.2 }}
+                            transition={{ duration: 2.4 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -93,7 +93,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 3.5 }}
+                            transition={{ duration: 2.5 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -107,7 +107,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 3.8 }}
+                            transition={{ duration: 2.6 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
@@ -121,7 +121,7 @@ const Team = () => {
                             class="col-12 col-md-12 col-lg-4 mb-2"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 4.1 }}
+                            transition={{ duration: 2.7 }}
                             viewport={{ once: true }}
                         >
                             <div class="card text-center">
