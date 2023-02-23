@@ -23,7 +23,7 @@ const About = () => {
                         transition={{duration: 1}}
                         >Moshiur Rahman <br /> <span className='text-secondary'>Web Developer</span></motion.h2>
                         <p>Hi! I am Moshiur Rahman, a junior web developer. As a passionate Developer , I want to see an opening for a Junior Web Developer role. I have experience in HTML, CSS,JavaScript, node.js and React. I am constantly seeking out new technologies and staying up-to-date on trends in the industry. I am dedicated to building easy-to-use, user-friendly websites, and applications</p>
-                        <a href="https://drive.google.com/file/d/1P7Evn6vcWRBF5zHkv30wTBwFmcKKPPQE/view?usp=sharing" target="_blank"  rel="noreferrer" class="btn content-download btn-warning fw-bold">Download My Resume</a>
+                        <a href="https://drive.google.com/file/d/1P7Evn6vcWRBF5zHkv30wTBwFmcKKPPQE/view?usp=sharing" target="_blank"  rel="noreferrer" class="btn content-download btn-warning fw-bold"> <i class="bi bi-download text-danger fs-5 mx-1"></i> Download My Resume</a>
                     </div>
                 </div>
             </div>

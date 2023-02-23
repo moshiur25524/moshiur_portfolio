@@ -76,7 +76,7 @@ const Projects = () => {
                                         <img src='https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?w=740&t=st=1677061375~exp=1677061975~hmac=b0377db0c972d6d8d4424db65cdf06d15f4213830136bffb26c2041043167b6e' class="img-fluid" alt="" />
                                     </div>
                                     <h3 class="card-title fw-bold">Bookory</h3>
-                                    <p class="lead">Book shop is a full stack web application. React is implemented as a library of javaScript. Besides, Node.js, Mongodb and Express.js also implented. A user can add, reomove, explore the books</p>
+                                    <p class="lead">Book shop is a full stack web application. React is implemented as a library of javaScript. Besides, Node.js, Mongodb also implented.</p>
                                     <div>
                                         <a class="btn bg-success text-white" target='_blank' href="https://bookory-cc089.web.app/" rel="noreferrer">Live site</a>
                                         <a class="btn bg-warning text-dark ms-2" target='_blank' href="https://github.com/moshiur25524/Bookory_Client" rel="noreferrer">Github</a>

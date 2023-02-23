@@ -1,5 +1,7 @@
 
 import './App.scss';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from './Pages/Header';
 import Banner from './Pages/Banner';
 import About from './Pages/About';
@@ -13,6 +15,7 @@ import { AnimatePresence } from 'framer-motion';
 function App() {
   return (
     <div className="App">
+      <ToastContainer/>
       <Header />
       <AnimatePresence exitBeforeEnter>
         <Banner />

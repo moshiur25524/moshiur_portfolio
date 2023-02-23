@@ -126,7 +126,7 @@ const Team = () => {
                         >
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <img src='https://i.ibb.co/LCQ3c3D/images.png' className='w-50' alt="" class="img-fluid rounded-circle" />
+                                    <img src='https://i.ibb.co/LCQ3c3D/images.png' alt="" class="img-fluid rounded-circle w-50" />
                                     <h3 class="card-title py-2">Firebase</h3>
                                 </div>
                             </div>
