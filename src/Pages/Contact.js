@@ -37,18 +37,18 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div class="row m-0">
+                    <div class="row m-0 w-75 mx-auto">
                         <div class="col-md-12 p-0 pt-4 pb-4">
                             <form ref={form} onSubmit={handleSubmit} autoComplete="off" class="bg-light p-4 m-auto">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="text" name='name' class="form-control" placeholder="Your Full Name" required />
+                                            <input type="text" name='from_name' class="form-control" placeholder="Your Full Name" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="email" name='email' class="form-control" placeholder="Your Email Here" required />
+                                            <input type="email" name='to_name' class="form-control" placeholder="Your Email Here" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
