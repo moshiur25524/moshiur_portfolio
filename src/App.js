@@ -18,8 +18,8 @@ function App() {
       <ToastContainer/>
       <Header />
       <AnimatePresence exitBeforeEnter>
-        <Banner />
         <About />
+        {/* <Banner /> */}
         <Services />
         <Projects />
         <Team />

@@ -7,7 +7,7 @@ const Team = () => {
         <div>
             <section
                 ref={scrollRef} style={{ overflow: "scroll" }}
-                id="portfolio" class="portfolio section-padding">
+                id="skills" class="portfolio section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
