@@ -31,6 +31,40 @@ const Projects = () => {
                 <div class="card-body text-dark">
                   <div class="img-area mb-4">
                     <img
+                      src="https://images2.imgbox.com/e9/d4/D4MvDHtO_o.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <h3 class="card-title fw-bold">Wood Craft</h3>
+                  <p class="lead">
+                    WoodCraft is a modern eCommerce website showcasing high-quality wooden furniture, built using WordPress, WooCommerce, Elementor, and the Astra theme
+                  </p>
+                  <div>
+                    <a
+                      class="btn bg-success text-white"
+                      target="_blank"
+                      href="https://moshiur.great-site.net/"
+                      rel="noreferrer"
+                    >
+                      Live site
+                    </a>
+                  
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              class="col-12 col-md-12 col-lg-4"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 2 }}
+              viewport={{ once: true }}
+            >
+              <div class="card text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img
                       src="https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5005.jpg?w=740&t=st=1677061695~exp=1677062295~hmac=2b9fa483b1ecdeed5a6778677035c4e872a4a31abaa7059982fa6b16a00bc951"
                       class="img-fluid"
                       alt=""
@@ -81,7 +115,7 @@ const Projects = () => {
                   </div>
                   <h3 class="card-title fw-bold">Car House</h3>
                   <p class="lead">
-                    Body buiding is a react web application. some different
+                    Car House is a react web application. some different
                     kinds of charts are added in the dashboard of the project.
                   </p>
                   <div>
@@ -105,49 +139,7 @@ const Projects = () => {
                 </div>
               </div>
             </motion.div>
-            <motion.div
-              class="col-12 col-md-12 col-lg-4"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 4 }}
-              viewport={{ once: true }}
-            >
-              <div class="card text-center bg-white pb-2">
-                <div class="card-body text-dark">
-                  <div class="img-area mb-4">
-                    <img
-                      src="https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?w=740&t=st=1677061375~exp=1677061975~hmac=b0377db0c972d6d8d4424db65cdf06d15f4213830136bffb26c2041043167b6e"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3 class="card-title fw-bold">Bookory</h3>
-                  <p class="lead">
-                    Book shop is a full stack web application. React is
-                    implemented as a library of javaScript. Besides, Node.js,
-                    Mongodb also implented.
-                  </p>
-                  <div>
-                    <a
-                      class="btn bg-success text-white"
-                      target="_blank"
-                      href="https://bookory-cc089.web.app/"
-                      rel="noreferrer"
-                    >
-                      Live site
-                    </a>
-                    <a
-                      class="btn bg-warning text-dark ms-2"
-                      target="_blank"
-                      href="https://github.com/moshiur25524/Bookory_Client"
-                      rel="noreferrer"
-                    >
-                      Github
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
+            
           </div>
         </div>
       </section>

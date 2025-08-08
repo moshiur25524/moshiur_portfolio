@@ -48,7 +48,7 @@ const About = () => {
                   Hi! I am Moshiur Rahman, a junior web developer. As a
                   passionate Developer , I want to see an opening for a Junior
                   Web Developer role. I have experience in HTML, CSS,JavaScript,
-                  node.js and React. I am constantly seeking out new
+                  node.js, Express.js, Wordpress, PHP, and React. I am constantly seeking out new
                   technologies and staying up-to-date on trends in the industry.
                   I am dedicated to building easy-to-use, user-friendly
                   websites, and applications

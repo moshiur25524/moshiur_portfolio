@@ -153,11 +153,11 @@ const Team = () => {
               <div class="card text-center">
                 <div class="card-body">
                   <img
-                    src="https://i.ibb.co/LCQ3c3D/images.png"
+                    src="https://images2.imgbox.com/9f/91/i4WP0nRQ_o.png"
                     alt=""
                     class="img-fluid rounded-circle w-50"
                   />
-                  <h3 class="card-title py-2">Firebase</h3>
+                  <h3 class="card-title py-2">WordPress</h3>
                 </div>
               </div>
             </motion.div>
