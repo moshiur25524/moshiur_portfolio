@@ -27,7 +27,7 @@ const Projects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div class="card text-center bg-white pb-2">
+              <div class="card bg-white pb-2">
                 <div class="card-body text-dark">
                   <div class="img-area mb-4">
                     <img
@@ -36,11 +36,11 @@ const Projects = () => {
                       alt=""
                     />
                   </div>
-                  <h3 class="card-title fw-bold">Wood Craft</h3>
-                  <p class="lead">
+                  <h3 class="card-title text-center fw-bold">Wood Craft</h3>
+                  <p class="">
                     WoodCraft is a modern eCommerce website showcasing high-quality wooden furniture, built using WordPress, WooCommerce, Elementor, and the Astra theme
                   </p>
-                  <div>
+                  <div className='text-center'>
                     <a
                       class="btn bg-success text-white"
                       target="_blank"
@@ -61,7 +61,7 @@ const Projects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div class="card text-center bg-white pb-2">
+              <div class="card bg-white pb-2">
                 <div class="card-body text-dark">
                   <div class="img-area mb-4">
                     <img
@@ -70,13 +70,13 @@ const Projects = () => {
                       alt=""
                     />
                   </div>
-                  <h3 class="card-title fw-bold">Body Building</h3>
-                  <p class="lead">
+                  <h3 class="card-title text-center fw-bold">Body Building</h3>
+                  <p class="text-justify">
                     Body buiding is a react responsive web application. Login
                     and logOut authentication system is added with firease. As
                     Css framwork, Bootstrap is implmented on it.
                   </p>
-                  <div>
+                  <div className='text-center'>
                     <a
                       class="btn bg-success text-white"
                       target="_blank"
@@ -104,7 +104,7 @@ const Projects = () => {
               transition={{ duration: 3 }}
               viewport={{ once: true }}
             >
-              <div class="card text-center bg-white pb-2">
+              <div class="card bg-white pb-2">
                 <div class="card-body text-dark">
                   <div class="img-area mb-4">
                     <img
@@ -113,12 +113,12 @@ const Projects = () => {
                       alt=""
                     />
                   </div>
-                  <h3 class="card-title fw-bold">Car House</h3>
-                  <p class="lead">
+                  <h3 class="card-title text-center fw-bold">Car House</h3>
+                  <p className="text-justify">
                     Car House is a react web application. some different
                     kinds of charts are added in the dashboard of the project.
                   </p>
-                  <div>
+                  <div className='text-center'>
                     <a
                       class="btn bg-success text-white"
                       target="_blank"

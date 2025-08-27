@@ -54,7 +54,7 @@ const About = () => {
                   websites, and applications
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/19g3xOIYZ-E4WQvOos_lKiGWGf2DV2YjN/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Yjx2VYNJwBwjx1SqUzcUhn29CtFBJwJD/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   class="btn content-download btn-secondary fw-bold"

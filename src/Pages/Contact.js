@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const service_id = "service_fd1p744";
+const service_id = "service_ywl8t1l";
 const template_id = "template_s18aq6w";
 const user_id = "i450Eyy2msOZu4AcZ";
 
@@ -32,8 +32,9 @@ const Contact = () => {
     return (
         <div>
            
-            <section id="contact" class="contact section-padding">
-                <div class="container">
+            <section id="contact" class="contact ">
+
+                {/* <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header text-center pb-5">
@@ -41,7 +42,13 @@ const Contact = () => {
                                 <p className='fs-2'> Let's make a conversation</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                
+                        <div>
+                            <div class="section-header text-center pb-5">
+                                <h2 className='fw-bold'>Contact Me</h2>
+                                <p className='fs-2'> Let's make a conversation</p>
+                            </div>
 
                     <div class="row m-0 w-75 mx-auto">
                         <div class="col-md-12 p-0 pt-4 pb-4">
@@ -49,12 +56,17 @@ const Contact = () => {
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="text" name='from_name' class="form-control" placeholder="Your Full Name" required />
+                                            <input type="text" name='name' class="form-control" placeholder="Your Full Name" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <input type="email" name='to_name' class="form-control" placeholder="Your Email Here" required />
+                                            <input type="email" name='email' class="form-control" placeholder="Your Email Here" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <input type="text" name='phone' class="form-control" placeholder="Your Number Here" required />
                                         </div>
                                     </div>
                                     <div class="col-md-12">
