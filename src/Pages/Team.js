@@ -18,7 +18,7 @@ const Team = () => {
 
           <div class="row">
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2 }}
@@ -36,7 +36,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.1 }}
@@ -54,7 +54,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.2 }}
@@ -72,7 +72,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.3 }}
@@ -90,7 +90,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.4 }}
@@ -108,7 +108,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.5 }}
@@ -126,7 +126,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.6 }}
@@ -144,7 +144,7 @@ const Team = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4 mb-2"
+              class="col-12 col-md-6 col-lg-4 mb-2"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2.7 }}

@@ -21,7 +21,7 @@ const Projects = () => {
 
           <div class="row">
             <motion.div
-              class="col-12 col-md-12 col-lg-4"
+              class="col-12 col-md-6 col-lg-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2 }}
@@ -55,7 +55,7 @@ const Projects = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4"
+              class="col-12 col-md-6 col-lg-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 2 }}
@@ -98,7 +98,7 @@ const Projects = () => {
               </div>
             </motion.div>
             <motion.div
-              class="col-12 col-md-12 col-lg-4"
+              class="col-12 col-md-6 col-lg-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 3 }}

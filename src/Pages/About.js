@@ -9,12 +9,12 @@ const About = () => {
       <section id="about" class="about section-padding">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-12 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
               <div class="about-img">
-                <img src={profile} alt="" class="img-fluid rounded" />
+                <img src={profile} alt="Md.Moshiur Rahman" class="img-fluid rounded" />
               </div>
             </div>
-            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="col-lg-8 col-md-6 col-12 ps-lg-5 mt-md-5">
               <div class="about-text">
                 <motion.h2
                   className="fw-bold"
