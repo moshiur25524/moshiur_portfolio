@@ -1,0 +1,36 @@
+/* Wrapper with animated gradient border */
+.social-wrapper {
+  padding: 4px; /* border thickness */
+  border-radius: 20px;
+  background: linear-gradient(
+    45deg,
+    #ff4ecd,
+    #4f46e5,
+    #06b6d4,
+    #f59e0b,
+    #ef4444
+  );
+  background-size: 300% 300%;
+    display: inline-block;   /* adjust width automatically */
+  z-index: 9999;
+}
+
+/* Inside area (solid background for icons) */
+.social-bar {
+  background: #111; /* dark background inside */
+  border-radius: 16px;
+  padding: 10px;
+}
+
+/* Gradient animation */
+@keyframes gradient-animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

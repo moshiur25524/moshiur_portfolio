@@ -11,6 +11,7 @@ import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import { AnimatePresence } from 'framer-motion';
+import SocialIcons from './Pages/components/SocialIcon';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <AnimatePresence exitBeforeEnter>
         <About />
+        <SocialIcons/>
         {/* <Banner /> */}
         <Services />
         <Projects />
