@@ -1,26 +1,26 @@
-
-import './App.scss';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import Header from './Pages/Header';
-import Banner from './Pages/Banner';
-import About from './Pages/About';
-import Services from './Pages/Services';
-import Projects from './Pages/Projects';
-import Team from './Pages/Team';
-import Contact from './Pages/Contact';
-import Footer from './Pages/Footer';
-import { AnimatePresence } from 'framer-motion';
-import SocialIcons from './Pages/components/SocialIcon';
+import './App.scss'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import Header from './Pages/Header'
+import Banner from './Pages/Banner'
+import About from './Pages/About'
+import Services from './Pages/Services'
+import Projects from './Pages/Projects'
+import Team from './Pages/Team'
+import Contact from './Pages/Contact'
+import Footer from './Pages/Footer'
+import { AnimatePresence } from 'framer-motion'
+import SocialIcons from './Pages/components/SocialIcon'
+import Modal from './Pages/components/Modal'
 
 function App() {
   return (
     <div className="App">
-      <ToastContainer/>
+      <ToastContainer />
       <Header />
       <AnimatePresence exitBeforeEnter>
         <About />
-        <SocialIcons/>
+        <SocialIcons />
         {/* <Banner /> */}
         <Services />
         <Projects />
@@ -28,8 +28,9 @@ function App() {
         <Contact />
         <Footer />
       </AnimatePresence>
+      <Modal />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
