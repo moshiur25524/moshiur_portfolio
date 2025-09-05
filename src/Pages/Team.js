@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { motion } from 'framer-motion'
+import php_image from '../Images/php_logo.png'
 
 const Team = () => {
   const scrollRef = useRef(null)
@@ -68,6 +69,20 @@ const Team = () => {
                     class="img-fluid rounded-circle w-50"
                   />
                   <h3 class="card-title py-2">JavaScript</h3>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              class="col-12 col-md-6 col-lg-4 mb-2"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 2.2 }}
+              viewport={{ once: true }}
+            >
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src={php_image} alt="php logo" class="img-fluid" />
+                  <h3 class="card-title py-2">PHP</h3>
                 </div>
               </div>
             </motion.div>
